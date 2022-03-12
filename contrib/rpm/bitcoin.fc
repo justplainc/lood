@@ -1,0 +1,8 @@
+/usr/bin/lood-cli		--	gen_context(system_u:object_r:lood_exec_t,s0)
+/usr/sbin/loodd		--	gen_context(system_u:object_r:lood_exec_t,s0)
+/usr/lib(64)?/lood/loodd		--	gen_context(system_u:object_r:lood_exec_t,s0)
+
+/etc/lood(/.*)?		gen_context(system_u:object_r:lood_conf_t,s0)
+/var/lib/lood(/.*)?		gen_context(system_u:object_r:lood_var_lib_t,s0)
+
+(/var)?/run/loodd(/.*)?   gen_context(system_u:object_r:lood_var_run_t,s0)

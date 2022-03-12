@@ -1,0 +1,6 @@
+usr/local/bin/lood-qt usr/bin
+share/pixmaps/lood32.xpm usr/share/pixmaps
+share/pixmaps/lood16.xpm usr/share/pixmaps
+share/pixmaps/lood128.png usr/share/pixmaps
+debian/lood-qt.desktop usr/share/applications
+debian/lood-qt.protocol usr/share/kde4/services/

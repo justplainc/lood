@@ -1,0 +1,22 @@
+[Unit]
+Description=Lood's distributed currency daemon
+After=network.target
+
+[Service]
+User=lood
+Group=lood
+
+Type=forking
+PIDFile=/var/lib/loodd/loodd.pid
+ExecStart=/usr/bin/loodd -daemon -pid=/var/lib/loodd/loodd.pid \
+-conf=/etc/lood/lood.conf -datadir=/var/lib/loodd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

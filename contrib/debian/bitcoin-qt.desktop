@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lood Core
+Comment=Connect to the Lood P2P Network
+Comment[de]=Verbinde mit dem Lood peer-to-peer Netzwerk
+Comment[fr]=Lood, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Lood, eşten eşe kriptografik sanal para birimi
+Exec=lood-qt %u
+Terminal=false
+Type=Application
+Icon=lood128
+MimeType=x-scheme-handler/lood;
+Categories=Office;Finance;
