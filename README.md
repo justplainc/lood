@@ -1,4 +1,4 @@
-![alt text](https://miro.medium.com/max/219/1*lVK-WtZS_w79ps3faIlj6g.png)
+![alt text](https://miro.medium.com/max/1400/1*h6BUy3nfno18axUmv41DyQ.jpeg)
 
 Lood Core integration/staging tree
 =====================================
