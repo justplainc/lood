@@ -33,14 +33,14 @@ For more information, as well as an immediately functional wallet, visit Lood.Ca
 
 Technical Overview
 -------
-<p align="center">
+
 ![alt text](https://ip.bitcointalk.org/?u=https%3A%2F%2Flood.cash%2F1%2Flood_cloud_txt.png&t=635&c=M8iypAeqqhkekA)
-</p>
+
 
 LOOD can be described as Litecoin stripped down to its core mechanics.  This means that even the standard QT wallet will be removed in favor of a vaguely retro but sexier user interface (SUI).  At which point additional features may be added using the C programming language. In the meantime, a cloud wallet exists and the coin works as a method of exchange within an existing blockchain game (Triple X Tycoon). Which has been in first-party development for over 7 years and operates entirely on it own game engine and the Lood cloud.
-<p align="center">
+
 ![alt text](https://ip.bitcointalk.org/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1280%2F1%2A0pXBhutWbfHTgUIkELcq-A.png&t=635&c=2YY6DvNdYoSjGQ)
-</p>
+
 License
 -------
 
